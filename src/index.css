@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+    --color-light-red-i: hsl(356, 100%, 66%);
+    --color-very-light-red: hsl(355, 100%, 74%);
+    --color-very-dark-blue: hsl(208, 49%, 24%); 
+    --color-white: hsl(0, 0%, 100%);
+    --color-grayish-blue: hsl(240, 2%, 79%);
+    --color-very-light-red: hsl(13, 100%, 72%);
+    --color-light-red-ii: hsl(353, 100%, 62%);
+    --color-very-dark-gray-blue: hsl(237, 17%, 21%);
+    --color-very-dark-desaturated-blue: hsl(237, 23%, 32%);
+}
