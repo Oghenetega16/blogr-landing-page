@@ -2,7 +2,7 @@ import { useState } from 'react'
 import Button from './button'
 
 export default function NavBar() {
-    const [showMenu, setShowMenu] = useState(false)
+    const [showMenu, setShowMenu] = useState(true)
     const [activeSubMenu, setActiveSubMenu] = useState(null)
 
     const handleMenu = () => {
