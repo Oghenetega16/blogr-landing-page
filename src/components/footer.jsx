@@ -1,6 +1,6 @@
 export default function Footer() {
     return (
-        <footer className="bg-very-dark-black-blue font-ubuntu mt-25 text-center text-white py-15 sm:text-left sm:flex sm:gap-15 sm:px-15 md:gap-25 lg:px-30 lg:gap-30 xl:px-45 xl:gap-50" style={{borderTopRightRadius: '90px'}}>
+        <footer className="bg-very-dark-black-blue font-ubuntu mt-25 text-center text-white py-15 sm:text-left sm:flex sm:gap-15 sm:px-15 md:gap-25 lg:px-30 lg:mt-10 lg:gap-30 xl:px-45 xl:gap-50" style={{borderTopRightRadius: '90px'}}>
             <div><img src="/assets/images/logo.svg" alt="logo" className="mx-auto mb-15 sm:mx-0" /></div>
             <div className="space-y-8 sm:flex sm:gap-10 md:gap-20 lg:gap-30 xl:gap-50">
                 <div>

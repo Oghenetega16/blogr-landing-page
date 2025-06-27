@@ -14,7 +14,7 @@ export default function NavBar() {
     }
 
     return (
-        <nav className="px-6 py-12 md:flex md:items-center md:gap-8 md:px-10">
+        <nav className="px-6 py-12 md:flex md:items-center md:gap-8 md:px-10 lg:px-30 lg:gap-15">
             <div className="flex items-center justify-between">
                 <img src="/assets/images/logo.svg" alt="logo" />
                 <img src={showMenu ? "/assets/images/icon-hamburger.svg" : "/assets/images/icon-close.svg"} alt={showMenu ? "hamburger icon" : "close icon"} className="md:hidden" onClick={handleMenu} />
