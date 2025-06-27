@@ -7,7 +7,7 @@ export default function HeroSection() {
             <p className="mt-4 text-lg">Grow your audience and build your online brand</p>
             <div className="font-bold space-x-4 mt-10">
                 <Button text="Start for Free" textColor="text-light-red" bgColor="bg-white" padding="px-5 py-3" />
-                <Button text="Learn More" textColor="text-white" bgColor="transparent" border="border-1" padding="px-5 py-3" />
+                <Button text="Learn More" textColor="text-white" bgColor="transparent md:transparent" border="border-1" padding="px-5 py-3" />
             </div>
         </section>
     )
