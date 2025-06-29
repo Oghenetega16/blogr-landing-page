@@ -4,7 +4,7 @@ export default function Content() {
     const bgPosition = 'center -14.5rem'
 
     return (
-        <section className="mt-20 font-overpass">
+        <section className="mt-20 font-overpass lg:mt-25">
             <h1 className="text-center mb-10 text-2xl font-medium text-very-dark-blue lg:-mb-20">Designed for the future</h1>
             <div className="space-y-10 px-6 md:flex md:items-center md:justify-center md:flex-row-reverse md:pt-10 md:space-y-0 md:gap-15 md:pr-0 md:pl-15 lg:pl-30 lg:pt-0">
                 <picture className="flex justify-center lg:-mr-50">

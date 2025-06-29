@@ -9,9 +9,9 @@ export default function App() {
     const bgPosition = 'center center'
 
     return (
-        <main className="min-h-screen relative">
-            <section className="bg-[url('./assets/images/bg-pattern-intro-mobile.svg')] bg-no-repeat" style={{ borderBottomLeftRadius: '90px', backgroundSize: bgSize, backgroundPosition: bgPosition }}>
-                <div className="bg-gradient-to-br from-[hsl(13,100%,72%)] to-[hsl(353,100%,62%)] opacity-90 pb-30" style={{ borderBottomLeftRadius: '90px' }}>
+        <main className="min-h-screen relative overflow-hidden">
+            <section className="bg-gradient-to-tr from-[hsl(13,100%,72%)] to-[hsl(353,100%,62%)]" style={{ borderBottomLeftRadius: '90px', backgroundSize: bgSize, backgroundPosition: bgPosition }}>
+                <div className=" pb-30" style={{ borderBottomLeftRadius: '90px' }}>
                     <NavBar />
                     <HeroSection />
                 </div>
@@ -22,4 +22,5 @@ export default function App() {
         </main>
     )
 }
+// bg-[url('./assets/images/bg-pattern-intro-mobile.svg')] bg-no-repeat
 
